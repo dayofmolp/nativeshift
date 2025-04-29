@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ site.title }}</title>
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+    </header>
+    <main>
+        {{ content }} {# This is where your page/post content goes #}
+    </main>
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+</body>
+</html>
